@@ -1,0 +1,23 @@
+@access_token = NTEzZTAxNDg1OGQyYjFiMjA4Mjc4Zjg5ZmYxMzkwYjkyODYwZDlkNmJhOTkyZmRmOTAyODJlOWJiM2U3OGViMg
+@domain = https://uat-api.recruitday.com
+
+
+### Create 
+
+POST {{domain}}/api/company-perk?access_token={{access_token}}
+Content-Length: 51
+
+{
+    "name": "Microsoft",
+    "employer_id": 3613
+}
+
+# {
+#   "status": true,
+#   "message": "Company perk created!",
+#   "data": {
+#     "id": 141,
+#     "perk_name": "Microsoft",
+#     "company_id": 3612
+#   }
+# }

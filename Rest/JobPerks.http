@@ -1,0 +1,35 @@
+@access_token = MThlYzdjYTQ0NGFmNzIwNWFiNzFhOTQ0ZTdkZDdjZWJmNDg3MzhmMmQzYjgwZmQ0MWQ1MWMxOTUwZGFhNDAxNA
+@domain = https://uat-api.recruitday.com
+
+
+### List Employee Rewards
+
+GET  {{domain}}/api/employee-rewards?access_token={{access_token}}
+filter-key: microsoft-teams
+tenant-id: 7822f03f-0002-4509-bdd0-b7b267eb44d7
+teams-user-email: admin@barhead.com
+
+
+### Create Employee Rewards
+
+POST {{domain}}/api/employee-rewards?access_token={{access_token}}
+filter-key: microsoft-teams
+tenant-id: 7822f03f-0002-4509-bdd0-b7b267eb44d7
+teams-user-email: admin@barhead.com
+
+{
+    "reward_setup_id": 1482,
+    "job_application_id": 9295,
+    "payment_date": null,
+    "reason_for_cancellation": null,
+    "payout_type": 0,
+    "payout_date": null
+}
+
+# {
+#   "status": true,
+#   "message": "Employee Reward Created",
+#   "data": {
+#     "id": 1156
+#   }
+# }

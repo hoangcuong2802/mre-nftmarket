@@ -1,0 +1,56 @@
+# https://developers.recruitday.com/
+
+### Get Access
+@clientId = 4_38leo2a4bpgk8kkcww844cwwko8s0sck8sws8ww4sw8wogws40
+@clientSecret = 5qyce9q74kws4kkw0cgcossgoko04c8co8g008gcookcckcs0c
+
+@access_token = Mzk4NmY3OTJlMDM0ZjBiZTk4NWMwYmE3NGNkY2Q4MzdkOTBlODdkYjE5NDc5ZDEwYjRjZWFiNDVkNDU0ODY1Nw
+
+
+GET https://uat-api.recruitday.com/oauth/v2/token?grant_type=client_credentials&client_id={{clientId}}&client_secret={{clientSecret}}
+
+
+### Search Job
+
+GET https://uat-api.recruitday.com/api/jobs?access_token={{access_token}}&data=java
+
+{
+
+}
+
+
+### Create Account
+
+POST https://uat-api.recruitday.com/api/account/candidate?access_token={{access_token}} HTTP/1.1
+Content-Length: 126
+
+{
+    "first_name": "Barry",
+    "last_name": "Smith",
+    "email_address": "doannq01@gmail.com"
+}
+
+# {
+#   "success": true,
+#   "account_id": 90588,
+#   "emp_admin_id": 66177,
+#   "account_type": "Employee"
+# }
+
+
+### Apply Job
+
+POST https://uat-api.recruitday.com/api/job-application?access_token={{access_token}}
+Content-Length: 126
+
+{
+    "employer_id": 3613,
+    "job_id": 2420,
+    "candidate_id": 90593,
+    "message": "",
+    "referrer_id": null
+}
+
+
+### Get Job Application by ID
+GET https://uat-api.recruitday.com/api/job-application/9489?access_token={{access_token}}

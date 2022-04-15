@@ -1,0 +1,90 @@
+@access_token = Y2FiZDZhOTYxNmVjZjQ2OTRiMGRmZjM2MmYwZGVlYjQ1MjY5MzQwMmUwMmI2YzI0ZDIwZjUyNGQ1ZTgzMjdjMA
+@domain = https://uat-api.recruitday.com
+
+
+
+### get Job Details
+
+GET {{domain}}/api/jobs/2410?access_token={{access_token}}
+Content-Length: 126
+
+{
+}
+
+### Update Job Details
+
+PUT {{domain}}/api/jobs?access_token={{access_token}}
+Content-Length: 1024
+
+{
+    "job_id": 2413,
+    "description": "<div class='job-details__paragraph'>
+<p>FPT Software Hanoi is looking for 10 Full Stack and NodeJS/ReactJS Team Leader with at least 3 years’ experience.<br>Customer is the company provide patient engagement cloud offers a full stack of dental apps designed to save valuable staff time and elevate the patient experience to foster growth.</p><p>When you join with us, you will have many opportunities for yourself:</p><ul>
+<li>Work in professional environment with a big project with many senior/expert peopl</li>
+<li>Join training on job if you need more training in project</li>
+<li>Can be promoted to next level Team leader/Project Manager with excellent performance</li>
+<li>Work with customer in United States</li>
+</ul><p>Chance work on professional environment of the biggest company. Join project to builds healthcare platform serve million patients and doctor in US.</p><p><strong>What You’ll Be Responsible for:</strong></p><ul>
+<li>Working closely with customers, stakeholders and team members.</li>
+<li>Determining requirements and providing project estimates and timelines.</li>
+<li>Solving issues and developing workarounds and alternative solutions.</li>
+<li>Identifying and removing bottlenecks that impede the progress of projects</li>
+<li>Continuously discover, evaluate, and implement new technologies to maximize development efficiency.</li>
+<li>Reviewing code</li>
+<li>Providing leadership, support and motivation to technical team members.</li>
+</ul>
+</div>",
+    "job_listing_category": 103,
+    "custom_photo_url": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjEzSVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e8b2fefe087556b5c4712d88ce10515b88263570/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2wzWldKd09oSnlaWE5wZW1WZmRHOWZabWwwV3dkcEFhb3ciLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a364054a300021d6ece7f71365132a9777e89a21/imgpsh_fullsize_anim%20(3).png",
+    "job_title": "Technical Leader",
+    "educational_attainment": 2,
+    "employment_type": "Full Time",
+    "job_location": "Makati City, Metro Manila",
+    "job_status": 2,
+    "minimum_years_of_experience": 12,
+    "number_of_vacancies": 1,
+    "perks": "",
+    "position_level": "Contractual 2 Months",
+    "qualification_summary": "",
+    "total_reward": null,
+    "work_schedule": 1,
+    "close_date": null
+
+
+}
+
+
+### Create Job Details
+
+POST {{domain}}/api/jobs?access_token={{access_token}}
+Content-Length: 1024
+
+{
+    "description": "Design and implement solutions leveraging Adobe AEM Sites
+    Develop digital consumer experiences based on foundation of the Adobe CQ/AEM product suite, including CQ/AEM, CRX, CQ WCM and DAM
+Translate marketing and web site needs into AEM specific recommendations and solutions
+Leverage AEM, other state-of-the-art technologies, and integration patterns to solve cross-departmental challenges
+Work in an agile, rapid development, and prototyping environment
+Drive project scope and timeline definition based on collaborative needs assessments
+Design and improve internal development methodologies around Adobe AEM solution
+Propose technology solutions to enable the business to meet/exceed those goals.
+Deliver a robust self-service environment for the end user community.",
+    "job_listing_category": 103,
+    "custom_photo_url": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjEzSVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e8b2fefe087556b5c4712d88ce10515b88263570/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBPZ2wzWldKd09oSnlaWE5wZW1WZmRHOWZabWwwV3dkcEFhb3ciLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--a364054a300021d6ece7f71365132a9777e89a21/imgpsh_fullsize_anim%20(3).png",
+    "job_title": "Senior Software Develop",
+    "educational_attainment": 2,
+    "employment_type": "Full Time",
+    "job_location": "Makati City, Metro Manila",
+    "job_status": 2,
+    "minimum_years_of_experience": 2,
+    "number_of_vacancies": 5,
+    "perks": "",
+    "position_level": "Contractual 2 Months",
+    "qualification_summary": "",
+    "total_reward": null,
+    "work_schedule": 1,
+    "close_date": null,
+    "employer_id": 3613
+
+
+}

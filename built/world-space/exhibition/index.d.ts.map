@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/world-space/exhibition/index.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,GAAG,MAAM,wCAAwC,CAAC;AAK9D,MAAM,CAAC,OAAO,OAAO,eAAe;IAEtB,OAAO,CAAC,OAAO;IAAe,OAAO,CAAC,MAAM;IADxD,OAAO,CAAC,eAAe,CAAwB;gBAC3B,OAAO,EAAE,GAAG,CAAC,OAAO,EAAU,MAAM,EAAE,GAAG,CAAC,YAAY;IAIpE,KAAK;CAoBZ"}

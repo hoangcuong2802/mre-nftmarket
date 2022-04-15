@@ -1,0 +1,1 @@
+{"version":3,"file":"microsoft-booth.d.ts","sourceRoot":"","sources":["../../../../src/world-space/exhibition/booths/microsoft-booth.ts"],"names":[],"mappings":"AAAA;;;GAGG;AAEH,OAAO,KAAK,GAAG,MAAM,wCAAwC,CAAC;AAK9D,MAAM,CAAC,OAAO,OAAO,cAAc;IAIrB,OAAO,CAAC,OAAO;IAH3B,OAAO,CAAC,qBAAqB,CAAM;IACnC,OAAO,CAAC,MAAM,CAAqB;gBAEf,OAAO,EAAE,GAAG,CAAC,OAAO;IAKxC,OAAO,CAAC,KAAK;CAsCd"}

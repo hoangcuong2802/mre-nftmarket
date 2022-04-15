@@ -1,0 +1,78 @@
+@access_token = NTEzZTAxNDg1OGQyYjFiMjA4Mjc4Zjg5ZmYxMzkwYjkyODYwZDlkNmJhOTkyZmRmOTAyODJlOWJiM2U3OGViMg
+@domain = https://uat-api.recruitday.com
+
+
+### Get Reward Setup List 
+
+GET {{domain}}/api/reward-setup?access_token={{access_token}}
+
+
+{
+}
+
+#     {
+#       "id": 1481,
+#       "job_application_status": 2,
+#       "reward_type": 1,
+#       "status_reward": 2000,
+#       "reward_validity_after": 3,
+#       "active": true,
+#       "rank": 3,
+#       "reward_validity_after_days": 0,
+#       "job_listing": {
+#         "id": 2330,
+#         "date_published": "2021-11-02T16:42:13+08:00",
+#         "job_title": "Sr. Operations Representative",
+#         "number_of_vacancies": 3,
+#         "total_reward_amount": 7000,
+#         "job_location": "Muntinlupa, Metro Manila",
+#         "rewards_setup": [
+#           {
+#             "id": 1479,
+#             "reward_type": 1,
+#             "status_reward": 2500,
+#             "reward_validity_after": 0,
+#             "active": true,
+#             "rank": 1,
+#             "reward_validity_after_days": 0,
+#             "job_application_status_name": "Interview"
+#           },
+#           {
+#             "id": 1480,
+#             "job_application_status": 2,
+#             "reward_type": 1,
+#             "status_reward": 2500,
+#             "reward_validity_after": 0,
+#             "active": true,
+#             "rank": 2,
+#             "reward_validity_after_days": 0,
+#             "job_application_status_name": "Hired"
+#           }
+#         ],
+#         "currency": "PHP"
+#       },
+#       "job_application_status_name": "Hired"
+#     },
+
+### Create Reward Setup
+
+POST {{domain}}/api/reward-setup?access_token={{access_token}}
+
+
+{
+    "job_listing_id": 2412,
+    "data": 
+        [{
+            "reward_type": 1,
+            "referral_status_completed": "Applied",
+            "reward": "1000",
+            "probation_end_in_months": 0,
+            "probation_end_in_days": 0,
+            "record_id": "",
+            "rank": 5
+        }]
+}
+
+    #   "id": 1482,
+    #   "job_application_status": 0,
+    #   "integration_id": ""
